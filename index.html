@@ -7,21 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
+    <header class="header" id="header">
         <h1 class="header-title">Богдан Тютюнник</h1>
         <p class="header-subtitle">Фрилансер, веб-разработчик,<br>создание сайтов</p>
-        <div class="header-arrow">
+        <a href="#portfolio" class="header-arrow">
             <img src="./img/header/icon.svg" alt="arrow">
-        </div>
-    </div>
-    <div class="portfolio">
-        <div class="container">
+        </a>
+    </header>
+    <main class="portfolio">
+        <section class="container" id="portfolio">
             <h2 class="portfolio-header">Портфолио</h2>
             <div class="portfolio-cards-wrapper">
                 <div class="card">
@@ -32,25 +33,30 @@
                     </a>
                 </div>
                 <div class="card">
-                    <img class="card-img" src="./img/portfolio/unit.jpg.jpg" alt="Адаптивный лендинг">
-                    <h3 class="card-title">Адаптивный лендинг</h3>
-                    <p>Верстка многостраничного сайта.</p>
+                    <a href="forest-travel.html" class="card-link">
+                        <img class="card-img" src="./img/portfolio/unit.jpg.jpg" alt="Адаптивный лендинг">
+                        <h3 class="card-title">Адаптивный лендинг</h3>
+                        <p>Верстка многостраничного сайта.</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img class="card-img" src="./img/portfolio/portfolio.jpg.jpg" alt="Личный сайт ">
-                    <h3 class="card-title">Личный сайт</h3>
-                    <p>Верстка многостраничного сайта.</p>
+                    <a href="forest-travel.html" class="card-link">
+                        <img class="card-img" src="./img/portfolio/portfolio.jpg.jpg" alt="Личный сайт ">
+                        <h3 class="card-title">Личный сайт</h3>
+                        <p>Верстка многостраничного сайта.</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img class="card-img" src="./img/portfolio/quantum.jpg.jpg" alt="Интернет магазин">
-                    <h3 class="card-title">Интернет магазин</h3>
-                    <p>Верстка многостраничного сайта.</p>
+                    <a href="forest-travel.html" class="card-link">
+                        <img class="card-img" src="./img/portfolio/quantum.jpg.jpg" alt="Интернет магазин">
+                        <h3 class="card-title">Интернет магазин</h3>
+                        <p>Верстка многостраничного сайта.</p>
+                    </a>
                 </div>
             </div>
-
-        </div>
-    </div>
-    <div class="footer">
+        </section>
+    </main>
+    <footer class="footer">
         <div class="container">
             <div class="footer-row">
                 <div class="footer-copyright footer-col">
@@ -72,9 +78,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 
-
+    <script src="./libs/jQuery/jquery-3.6.1.min.js"></script>
+    <script src="./libs/vibe/jquery.vide.min.js"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 
